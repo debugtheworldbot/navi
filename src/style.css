@@ -77,6 +77,14 @@ body {
   color: #9dbfaf;
 }
 
+.searchTerm:focus::-webkit-input-placeholder{
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+.searchTerm:focus::-moz-placeholder {
+   transition: opacity 0.45s ease;
+   opacity: 0;
+ }
 
 
 .searchTerm:focus {
