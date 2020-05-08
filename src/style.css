@@ -148,6 +148,11 @@ body {
   border-radius: 20px;
   padding: 20px;
   cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ;
+}
+.siteList .site:hover {
+  opacity: 1;
 }
 .siteList .site > .logo {
   width: 64px;
@@ -183,6 +188,13 @@ body {
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 20px;
+  opacity: 0.8;
+  transition: all .3s;
+  cursor:pointer;
+}
+.siteList .new:hover {
+  opacity: 1;
+
 }
 .siteList .new .logo > .icon {
   width: 64px;
